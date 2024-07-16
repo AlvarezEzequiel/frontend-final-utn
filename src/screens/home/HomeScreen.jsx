@@ -1,11 +1,5 @@
 import React from 'react';
 import './Home.css';
-import burguerMain from '../../../public/img/burguerMain.jpg';
-import drinksMain from '../../../public/img/drinksMain.jpg';
-import rabasMain from '../../../public/img/rabasMain.jpg';
-import cervezaMain from '../../../public/img/cervezaMain.jpg';
-import pizzaMain from '../../../public/img/pizzaMain.jpg';
-import postreMain from '../../../public/img/postreMain.avif';
 import Footer from '../../components/footer/Footer';
 import { useNavigate } from 'react-router-dom';
 
