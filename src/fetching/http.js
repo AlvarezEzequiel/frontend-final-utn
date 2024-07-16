@@ -54,5 +54,5 @@ export const HTTP = {
 }
 
 export const URLS = {
-    URL_API: 'https://back-end-final-utn.vercel.app'
+    URL_API: 'https://back-end-final-4ws2qic5g-ezequiels-projects-3bc3e5d7.vercel.app/'
 }
