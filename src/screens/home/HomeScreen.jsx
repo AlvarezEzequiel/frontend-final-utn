@@ -21,27 +21,27 @@ const HomeScreen = () => {
         <main className='main'>
           <section className="contenedor__Grid">
             <div className="card boxCerveza" onClick={goToProducts}>
-              <img className="imgCervezaMain" src={cervezaMain} alt="Cerveza" />
+              <img className="imgCervezaMain" src='https://raw.githubusercontent.com/AlvarezEzequiel/proyecto-react-vite/gh-pages/assets/cervezaMain-z9Q-I_H4.jpg' alt="Cerveza" />
               <h3>Cerveza</h3>
             </div>
             <div className="card boxPicada" onClick={goToProducts}>
-              <img className="imgPicadaMain" src={rabasMain} alt="Para Picar" />
+              <img className="imgPicadaMain" src='https://raw.githubusercontent.com/AlvarezEzequiel/proyecto-react-vite/gh-pages/assets/rabasMain-Y0VaT9g3.jpg' alt="Para Picar" />
               <h3>Para Picar</h3>
             </div>
             <div className="card boxPizza" onClick={goToProducts}>
-              <img className="imgPizzaMain" src={pizzaMain} alt="Pizzas" />
+              <img className="imgPizzaMain" src='https://raw.githubusercontent.com/AlvarezEzequiel/proyecto-react-vite/gh-pages/assets/pizzaMain-A00PpHoF.jpg' alt="Pizzas" />
               <h3>Pizzas</h3>
             </div>
             <div className="card boxBurguer" onClick={goToProducts}>
-              <img className="imgBurguerMain" src={burguerMain} alt="Burguers" />
+              <img className="imgBurguerMain" src='https://raw.githubusercontent.com/AlvarezEzequiel/proyecto-react-vite/gh-pages/assets/burguerMain-DwY4RtMG.jpg' alt="Burguers" />
               <h3>Burguers</h3>
             </div>
             <div className="card boxDrinks" onClick={goToProducts}>
-              <img className="imgDrinksMain" src={drinksMain} alt="Drinks" />
+              <img className="imgDrinksMain" src='https://raw.githubusercontent.com/AlvarezEzequiel/proyecto-react-vite/gh-pages/assets/drinksMain-LivcLVFR.jpg' alt="Drinks" />
               <h3>Drinks</h3>
             </div>
             <div className="card boxPostres" onClick={goToProducts}>
-              <img className="imgPostreMain" src={postreMain} alt="Postres" />
+              <img className="imgPostreMain" src='https://raw.githubusercontent.com/AlvarezEzequiel/proyecto-react-vite/gh-pages/assets/postreMain-toUcxzq1.avif' alt="Postres" />
               <h3 className="titulos-main">Postres</h3>
             </div>
           </section>
