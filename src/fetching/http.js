@@ -54,5 +54,5 @@ export const HTTP = {
 }
 
 export const URLS = {
-    URL_API: 'http://localhost:4040'
+    URL_API: 'https://console.clever-cloud.com/users/me/addons/addon_a2c0a3bc-74a0-4db8-9397-aa89ce062c56'
 }
