@@ -54,5 +54,5 @@ export const HTTP = {
 }
 
 export const URLS = {
-    URL_API: 'https://b5qxckk1c5gwxxw9vq47-mysql.services.clever-cloud.com'
+    URL_API: 'https://back-end-final-utn.vercel.app'
 }
