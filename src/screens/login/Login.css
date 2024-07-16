@@ -1,0 +1,130 @@
+.body {
+    width: 100%;
+}
+
+.login-body {
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    padding-bottom: 100px;
+}
+
+.login-body h2 {
+    display: flex;
+    justify-content: center;
+    color: #AF8F6F;
+    font-size: 22px;
+}
+
+.form-login {
+    padding-top: 100%;
+    background-color: rgba(232, 232, 232, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 37px #AF8F6F;
+    font-family: 'calibri';
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #AF8F6F;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    background-color: #e1c7aa;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #74512D;
+    border-radius: 5px;
+    color: #543310;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: #fff; /* Cambia el color de fondo al blanco */
+    color: #000; /* Asegura que el color del texto sea negro */
+    border-color: #AF8F6F; /* Opcional: cambia el color del borde cuando está enfocado */
+}
+
+input::placeholder {
+    color: #AF8F6F;
+}
+
+.link {
+    color: #AF8F6F;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+p {
+    color: #d8b55bc3;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button[type="submit"] {
+    display: flex;
+    justify-content: center;
+    background-color: #AF8F6F;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #AF8F6F;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 35px auto 20px auto;
+    box-shadow: 2px 2px 20px 2px rgba(175, 143, 111, 0.5);
+}
+
+
+
+.button[type="submit"]:hover {
+    background-color: #74512D;
+    box-shadow: 7px 1px 37px #74512D;
+}
+.error-message {
+    color: #FF4C4C;
+    background-color: #FFE6E6;
+    border: 1px solid #FF4C4C;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(255, 76, 76, 0.2);
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .form-login {
+        padding: 15px;
+    }
+
+    label,
+    .button[type="submit"] {
+        font-size: 14px;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+

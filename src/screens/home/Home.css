@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .body {
+    background-color: #F8F4E1;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../../../public/img/black3.jpg');
+    object-fit: cover;
+    mask-repeat: no-repeat;
+    
+  }
+  
+  .main {
+    padding: 20px;
+    
+  }
+  
+  .contenedor__Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(315deg, #f9f9f9 0%, #d7d2cc 74%);
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    object-fit: cover;
+    
+  }
+  
+  .card h3 {
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #cd8b28;
+    background-color: #f9f9f9;
+    background-image: linear-gradient(315deg, #f9f9f9 0%, #d7d2cc 74%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 1440px) {
+    .contenedor__Grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .contenedor__Grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor__Grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 35%;
+    }
+  }
+  @media (width <= 600px) {
+    .contenedor__Grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 15%;
+        
+    }
+  }
+  @media (max-width: 390px) {
+    .contenedor__Grid {
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 320%;
+        
+    }
+  }
